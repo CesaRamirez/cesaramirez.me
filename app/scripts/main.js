@@ -1,7 +1,15 @@
-$(function(){
-  $(".navbar-brand").typed({
-    strings: ["César Ramírez"],
+$(function () {
+  $('#_title').typed({
+    strings: ['César Ramírez'],
     showCursor: false,
     typeSpeed: 75
   });
+  $('#typed-title').typed({
+    strings: ['Desarrollador Web', 'Web Developer'],
+    showCursor: true,
+    loop: true,
+    typeSpeed: 100
+  });
+
+  $('[data-toggle="tooltip"]').tooltip();
 });
