@@ -12,4 +12,6 @@ $(function () {
   });
 
   $('[data-toggle="tooltip"]').tooltip();
+
+  $('.loader').fadeOut('slow');
 });

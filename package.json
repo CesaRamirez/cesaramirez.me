@@ -40,5 +40,9 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "roboto-fontface": "^0.6.0"
   }
 }
