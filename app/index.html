@@ -9,16 +9,25 @@
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <style>
+    .loader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('images/Preloader.gif') 50% 50% no-repeat rgb(249,249,249);
+    }
+  </style>
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bower_components/material-kit/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/material-kit/assets/css/material-kit.css">
   <!-- endbower -->
-  <!-- endbuild -->
-
-  <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-
   <!-- build:js scripts/vendor/modernizr.js -->
   <script async src="/bower_components/modernizr/modernizr.js"></script>
   <!-- endbuild -->
@@ -74,17 +83,17 @@
         <div class="row">
           <div class="profile">
             <div class="name">
-              <h3 class="title">Acerca de Mi - About Me</h3>
+              <h3 class="title">Acerca de Mi</h3>
             </div>
           </div>
         </div>
         <div class="row" style="color: #999999">
-          <p class="col-md-6 text-center">Programador Web con enfoque en Desarrollo Back End e interes en el Desarrollo
+          <p class="col-md-12 text-center">Programador Web con enfoque en Desarrollo Back End e interes en el Desarrollo
             Front End, conocimientos en desarrollo movil android y otras tecnologias.
             Soy una persona autodidacta con el gusto de siempre aprender tecnologias nuevas.</p>
-          <p class="col-md-6 text-center">Web Programmer Development focusing on Back End and interest in Development
+          <!--<p class="col-md-6 text-center">Web Programmer Development focusing on Back End and interest in Development
             Front End, knowledge android mobile development and other technologies.
-            I am a self-taught person with like always learn new techonologies.</p>
+            I am a self-taught person with like always learn new techonologies.</p>-->
         </div>
 
         <div class="row">
@@ -96,7 +105,7 @@
                     <a href="#know" role="tab" data-toggle="tab">
                       <i class="fa fa-check"></i>
                       <p>Conocimientos</p>
-                      <p>knowledge</p>
+                      <!--<p>knowledge</p>-->
 
                     </a>
                   </li>
@@ -104,7 +113,7 @@
                     <a href="#work" role="tab" data-toggle="tab">
                       <i class="fa fa-desktop"></i>
                       <p>Proyectos</p>
-                      <p>Projects</p>
+                      <!--<p>Projects</p>-->
                     </a>
                   </li>
                 </ul>
@@ -320,10 +329,10 @@
                             <span class="label label-info">Angular</span>
                             <span class="label label-info">Yii 2</span>
                             <span class="label label-info">MySQL</span>
+                            <span class="label label-danger">Proximamente</span>
                             <p class="card-description">
                               Web diseñada para realizar el calculo de tu Salario, Vacación y Aguinaldo, de una manera
-                              facil y rapida! / Web designed to make calculating your salary, Vacation and Bonus, a
-                              quick and easy way
+                              facil y rapida!
                             </p>
                           </div>
                         </div>
@@ -344,13 +353,8 @@
       <nav class="pull-left">
         <ul>
           <li>
-            <a href="">
-              César Ramírez
-            </a>
-          </li>
-          <li>
             <a href="mailto:cesar.ramirez.sv@gmail.com?Subject=Hello!" target="_top">
-              Contactame / Contact me
+              Contactame
             </a>
           </li>
         </ul>
@@ -358,7 +362,7 @@
       <div class="copyright pull-right">
         &copy;
         <script>document.write(new Date().getFullYear())</script>
-        , made by César Ramírez
+        , made by <a href="#">César Ramírez</a>
       </div>
     </div>
   </footer>

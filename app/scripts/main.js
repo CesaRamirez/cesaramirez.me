@@ -5,7 +5,7 @@ $(function () {
     typeSpeed: 75
   });
   $('#typed-title').typed({
-    strings: ['Desarrollador Web', 'Web Developer'],
+    strings: ['Desarrollador Web'],
     showCursor: true,
     loop: true,
     typeSpeed: 100
