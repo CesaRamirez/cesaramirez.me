@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#_title").typed({strings:["César Ramírez"],showCursor:!1,typeSpeed:75}),$("#typed-title").typed({strings:["Web Developer"],showCursor:!0,loop:!1,typeSpeed:100}),$('[data-toggle="tooltip"]').tooltip(),$(".loader").fadeOut("slow")});
